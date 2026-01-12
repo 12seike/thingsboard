@@ -1,5 +1,5 @@
 {
-  "name": "LoongCord IoT",
+  "name": "LoongCord",
   "version": "3.8.0",
   "scripts": {
     "ng": "ng",
