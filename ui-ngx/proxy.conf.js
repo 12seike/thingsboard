@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const forwardUrl = "http://localhost:8080";
-const wsForwardUrl = "ws://localhost:8080";
+const forwardUrl = "http://localhost:8012";
+const wsForwardUrl = "ws://localhost:8012";
 const ruleNodeUiforwardUrl = forwardUrl;
 
 const PROXY_CONFIG = {
