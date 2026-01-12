@@ -15,7 +15,7 @@
 ///
 
 export const environment = {
-  appTitle: 'ThingsBoard',
+  appTitle: 'LoongCord IoT',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
