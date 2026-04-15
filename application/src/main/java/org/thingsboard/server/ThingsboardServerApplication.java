@@ -22,11 +22,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.Ordered;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.thingsboard.server.dao.timeseries.tdengine.EnableTdEngineTimeseries;
 import org.thingsboard.server.queue.util.AfterStartUp;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
-
+@EnableTdEngineTimeseries
 @SpringBootConfiguration
 @EnableAsync
 @EnableScheduling

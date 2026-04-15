@@ -46,6 +46,19 @@
     </properties>
 
     <dependencies>
+        <!-- TDengine 国产时序数据库驱动 -->
+        <dependency>
+            <groupId>com.taosdata.jdbc</groupId>
+            <artifactId>taos-jdbcdriver</artifactId>
+            <version>3.8.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/taos-jdbcdriver-3.8.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll</artifactId>
